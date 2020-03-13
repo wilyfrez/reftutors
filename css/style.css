@@ -1,0 +1,115 @@
+:root{
+  --primary-color: #2569E6;
+  --primary-color-transparent:rgba(251, 189, 5, 0.87);
+  --dark-blue-color: #1f1f29;
+  --dark-color: #15161D;
+  --black-color: #000;
+  --dark-text-color: #333;
+  --white-color: #FFF;
+  --gray-color: #8D99AE;
+  --light-color: #E4E6EC;
+  --info-color: #00529B;
+  --info-background-color: #BDE5F8;
+  --success-color: #4F8A10;
+  --success-background-color: #DFF2BF;
+  --warning-color: #9F6000;
+  --warning-background-color: #FEEFB3;
+  --error-color: #D8000C;
+  --error-background-color: #FFD2D2;
+}
+
+*{
+  font-family: 'Lato', sans-serif;
+
+}
+
+
+.navbar{
+  padding: 16px 150px;
+  font-family: 'Play', sans-serif;
+  background-color: var(--primary-color);
+}
+
+
+a.navbar-brand{
+  font-family: 'Fredoka One', cursive;
+}
+.top-header{
+  background-color: #F0F1F1;
+ font-family: 'Oxanium', cursive;
+ padding-right: 100px;
+}
+.top-header div{
+  margin: 4px 15px;
+  font-size: 0.8rem;
+}
+
+.top-header div span{
+  font-weight: 600;
+
+}
+.top-header div i.fas{
+  color: var(--primary-color);
+  margin-right: 6px;
+}
+
+.navbar-nav .nav-item a.nav-link{
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  
+}
+
+.section{
+  margin: 50px auto;
+ 
+}
+
+.guarantee .box img{
+  width: 150px;
+  height: 150px;
+}
+
+.guarantee .box h3{
+ font-weight: 600;
+ font-size: 1.2rem;
+  margin: 10px 0px;
+}
+.guarantee .box{
+    text-align: center;
+    margin: 0px 30px;
+}
+
+.welcome{
+  width: 100%;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.welcome h3{
+  font-weight: 600;
+}
+
+footer{
+  border-top: 4px solid goldenrod;
+  background-color: var(--primary-color);
+  padding: 50px 0;
+  color: var(--white-color);
+}
+
+.services h4{
+    color: gold;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.services div{
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.services div i{
+font-size: 1rem;
+color: gold;
+  width: 30px;
+}
